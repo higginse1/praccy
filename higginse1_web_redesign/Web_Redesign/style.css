@@ -1,0 +1,278 @@
+.banner {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.banner img {
+    height: 150px;
+}
+.menu a {
+    font-size: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+}
+.menu a:hover {
+    color: grey;
+}
+.flex-container1 {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+}
+
+.flex-container1 > div {
+  background-color: #f1f1f1;
+  width: 33%;
+  margin: 10px;
+  line-height: 50px;
+  font-size: 30px;
+    padding: 50px;
+}
+
+.flex-container2 {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: grey;
+}
+
+.flex-container2 > div {
+  background-color: #f1f1f1;
+  width: 33%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  padding: 30px;
+}
+
+.flex-container3 {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: grey;
+}
+
+.flex-container3 > div {
+  background-color: grey;
+  width: 33%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+    color: white;
+}
+.flex-container4 {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: lightgray;
+}
+
+.flex-container4 > div {
+  background-color: lightgray;
+  width: 50%;
+  margin: 10px;
+  text-align: left;
+  line-height: 40px;
+  font-size: 30px;
+    padding: 60px;
+}
+.flex-container5 {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: lightgray;
+}
+
+.flex-container5 > div {
+  background-color: dodgerblue;
+    color: white;
+  width: 50%;
+  margin: 10px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 30px;
+    padding: 20px;
+}
+
+.flex-container6 {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-container6 > div {
+    color: white;
+  width: 50%;
+  margin: 10px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 30px;
+    padding: 20px;
+}
+
+.flex-container7 {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-container7 > div {
+    background-color: dodgerblue;
+    color: white;
+  width: 50%;
+  margin: 40px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 30px;
+    padding: 20px;
+}
+.content {
+    padding: 15px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    .banner {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .banner img {
+        height: auto;
+        width: 80%;
+    }
+    .menu a {
+        font-size: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-decoration: none;
+    }
+    .menu a:hover {
+        color: grey;
+    }
+    .flex-container1 {
+      display: flex;
+      flex-wrap: nowrap;
+      background-color: DodgerBlue;
+    }
+
+    .flex-container1 > div {
+      background-color: #f1f1f1;
+      width: 33%;
+      margin: 12px;
+      line-height: 26px;
+      font-size: 20px;
+        padding: 10px;
+    }
+
+    .flex-container2 {
+      display: flex;
+      flex-wrap: nowrap;
+      background-color: grey;
+    }
+
+    .flex-container2 > div {
+      background-color: #f1f1f1;
+      width: 33%;
+      margin: 12px;
+      text-align: center;
+      line-height: 35px;
+      font-size: 20px;
+      padding: 10px;
+    }
+
+    .flex-container3 {
+      display: flex;
+      flex-wrap: nowrap;
+      background-color: grey;
+    }
+
+    .flex-container3 > div {
+      background-color: grey;
+      width: 33%;
+      margin: 10px;
+      text-align: center;
+      line-height: 75px;
+      font-size: 20px;
+        color: white;
+    }
+    .flex-container3 h2 {
+        font-size: 20px;
+    }
+    .flex-container4 {
+      display: flex;
+      flex-wrap: nowrap;
+      background-color: lightgray;
+    }
+
+    .flex-container4 > div {
+      background-color: lightgray;
+      width: 50%;
+      margin: 10px;
+      text-align: left;
+      line-height: 30px;
+      font-size: 20px;
+        padding: 10px;
+    }
+    .flex-container5 {
+      display: flex;
+      flex-wrap: nowrap;
+      background-color: lightgray;
+    }
+
+    .flex-container5 > div {
+      background-color: dodgerblue;
+        color: white;
+      width: 50%;
+      margin: 10px;
+      text-align: center;
+      line-height:25px;
+      font-size: 20px;
+        padding: 10px;
+    }
+
+    .flex-container6 {
+      display: flex;
+      flex-wrap: nowrap;
+    }
+
+    .flex-container6 > div {
+        color: white;
+      width: 50%;
+      margin: 10px;
+      text-align: center;
+      line-height: 35px;
+      font-size: 30px;
+        padding: 20px;
+    }
+
+    .flex-container7 {
+      display: flex;
+      flex-wrap: nowrap;
+    }
+
+    .flex-container7 > div {
+        background-color: dodgerblue;
+        color: white;
+      width: 50%;
+      margin: 10px;
+      text-align: center;
+      line-height: 35px;
+      font-size: 20px;
+        padding: 10px;
+    }
+    .content {
+        padding: 15px;
+        padding-left: 4%;
+        padding-right: 4%;
+        background-color: aliceblue;
+    }
+}

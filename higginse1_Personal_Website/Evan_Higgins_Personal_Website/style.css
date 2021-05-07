@@ -1,0 +1,87 @@
+.menu {
+  height: 100%;
+  width: 12%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #321512;
+  overflow-x: hidden;
+  padding-top: 30px;
+}
+
+.menu a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #FFFFF3;
+  display: block;
+}
+
+.body {
+  margin-left: 12%; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px;
+}
+
+header {
+    text-align: center;
+    background-image: linear-gradient(#33957E, #FFFFF3);
+    padding: 0px;
+    margin: 0px;
+}
+h1, h2, h3, p, a {
+    font-family: sans-serif;
+}
+
+.content {
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.contact {
+    background-image: linear-gradient(#FFFFF3, #33957E);
+    padding: 10px 40px;
+    margin: 0px;
+    border-top: 6px solid #321512;
+}
+
+.photos img {
+    background-color: grey;
+    display: inline-block;
+    width: 40%;
+}
+.photos {
+    text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+    .menu {
+      height: 30px;
+      width: 100%;
+      position: relative;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #321512;
+      overflow-x: hidden;
+      padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .menu a {
+        display: inline;
+    }
+    header {
+    text-align: center;
+    background-image: linear-gradient(#33957E, #FFFFF3);
+    padding: 0px;
+    margin: 0px;
+}
+    header img {
+        width: 100%;
+    }
+    .body {
+  margin-left: 0%;
+    }
+}
